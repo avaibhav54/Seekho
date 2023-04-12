@@ -39,7 +39,7 @@ public class SubscriptionPlanServiceImpl implements SubscriptionPlanService {
             }
         }
 
-AmPlanDetails amPlanDetails = new AmPlanDetails();
+        AmPlanDetails amPlanDetails = new AmPlanDetails();
         amPlanDetails.setSubscriptionPlan(subscriptionPlan);
         List<Coupon> couponList = couponService.getPublicCoupons();
         List<String> couponCodes = new ArrayList<>();
